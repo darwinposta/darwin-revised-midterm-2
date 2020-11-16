@@ -1,0 +1,11 @@
+Darwin Posta - R01504119
+
+How did I come up with this idea?
+I was having a hard time coming up with a cool game, so I went back to already completed assignments from the past semester, to see if any pieces of the code stuck out at me or sparked any inspiration. I noticed that it was painfully annoying to have to switch between each program to run them, and I thought it would be cool if I could design a GUI that could combine multiple programs into one.
+
+What is the main feature that you worked hard on?
+One feature that took me forever was the ability of make each module to disappear after opening it by pressing the "Return to homepage" button. It was tough because at first I couldn't figure out how to create a window that didn't only exist in the __init__ section of the code, though once I figured out I could just put it later in the code, it solved many headaches. I was having issues with the "Return to homepage" button, because I couldn't create a blanket statement that deleted all frames and then opened the original frame that housed the homepage, because as soon as I deleted all of the frames, the program would close out because there was nothing left in the tkinter window. Once I figured out how to use the destroy method, I ran into the issue that I couldn't destroy the clock part, as I housed it on a canvas instead of a separate frame. I then had to create an if statement that checked which module I was trying to close using the "Hidden" variable, then either destroyed the frame, or deleted the canvas.
+
+
+
+A problem I ran into though, is even through trial and error, I couldn't figure out how to delete homepage once I went into a specific aspect of the code, as I would get crazy long error messages as well as it just completely closing the program. Another issue I ran into is I couldn't figure out how to properly bind a key to closing a certain part of the project instead of having to click the "Return to homepage" button, so I reverted back to the current "Return to homepage" button.

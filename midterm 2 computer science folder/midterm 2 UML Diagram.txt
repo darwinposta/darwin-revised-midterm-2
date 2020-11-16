@@ -1,0 +1,22 @@
+UML Diagram Darwin Posta - R01504119
+
+GUI:
+
+Hidden: int
+frame: Frame
+investmentAmount: Str
+annualIR: str
+numberOfYears: str
+futureValue: str
+
+compute(monthlyIR: int, annualIR.get: int, futureValue: Int)
+
+conversion(hidden: int, inputCel: float, newFahr: float, inputFahr: float, newCel: float)
+
+calsiusToFahrenheit(f: float, inputFahr: float, newCel:float)
+
+fahrenheitToCelsius(c: float, inputCel: float, newFahr: float)
+
+getTime(hidden: float, now: str)
+
+goHome(hidden: int)

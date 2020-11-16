@@ -1,0 +1,5 @@
+Darwin Posta - R01504119
+
+For my game design, I didn't create a certain genre of game, but drew inspiration from our past assignments and projects. I was struggling to think of an interesting game that would be unique, so I went back through our past assignments. I thought it would be cool if I could design a GUI that could combine multiple of these programs into the same program. There's no specific target audience for the entire program, but for example, a 10 year old child would not be using the interest calculator, so there are some limits there. There are no real hardware requirements, just python, as the game runs off of pre existing libraries/modules. 
+
+To use the program, all you have to do is click on either of the three buttons on the homepage that lead to the temperature conversion, the investment calculator, or the clock.
